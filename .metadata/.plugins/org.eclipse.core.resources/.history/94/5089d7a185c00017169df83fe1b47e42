@@ -1,0 +1,26 @@
+package nit;
+
+public class test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		A obj = new B();
+		obj.m1();
+	}
+}
+	
+	class A {
+		void m1(){
+			System.out.println("Hello");
+			}
+
+		}
+	class B extends A{
+		void m2(){
+			System.out.println("Hello world");
+		}
+
+		
+	}
+
+

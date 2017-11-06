@@ -1,0 +1,19 @@
+package nit;
+
+public class Test2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String word = "my name is nitesh rawat from jharkhand";
+		String arr[] = word.split(" ");
+		int len = arr.length;
+		String temp = "";
+		for (int i = 0; i < arr.length; i++) {
+			String s = arr[i];
+			
+
+		}
+
+	}
+
+}
